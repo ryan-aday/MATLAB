@@ -1,0 +1,23 @@
+Your SBUID is 112754800
+MAKE SURE THAT YOU ENTERED YOUR SBUID CORRECTLY
+
+
+Problem 1 [70 pts]: Given the matrix A = [ 1 -1 3; -1 2 5; 3 0 -4] and vector b=[ 1; 0; -2],
+write a Matlab scritp named problem1.m that computes and the following:
+(a) [10 pts] The norm n=|b| of the vector b
+(b) [10 pts] The minimum value amin of the matrix A
+(c) [10 pts] The maximum value amax of the matrix A
+(d) [10 pts] The determinat D of the matrix A
+(e) [10 pts] The matrix B which is the inverse of A
+(f) [10 pts] The column vector x which is the solution of the linear system A x = b
+(g) [10 pts] The residual error err=|B x- b| for the solution vector x computed in (f)
+
+
+
+Problem 2: Write a Matlab scritp named problem2.m that performed the following operations:
+(a) [5 pts] Load the file input.xls, which has 2 columns of fixed width
+(b) [5 pts] Store the first column of input.dat in a vector x
+(c) [5 pts] Store the second column of input.dat in a vector y
+(d) [5 pts] Compute the size N of the vector x
+(d) [10 pts] Compute a scalar S that stores the sum of all elements x(i) that are larger than y(i)
+You must use the FOR and IF statemnts to create a loop and decision structure to verify that x(i)>y(i)
